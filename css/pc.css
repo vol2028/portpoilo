@@ -1,0 +1,570 @@
+/* pc.css */
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg1.jpg);
+}
+
+#main .main-box {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+    outline: 1px solid red;
+    align-items: center;
+
+}
+#main .main-box .main-txt {
+    font-family: "Papyrus";
+    text-align: center;
+}
+
+#main .main-txt p {
+    /* margin-top: 30px; */
+    line-height: 60px;
+    font-size: 70px;
+    color: var(--txt-color);
+}
+
+#main .main-txt h1 {
+    font-size: 120px;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+#main .main-txt h1>span {
+    color: var(--wtxt-color);
+}
+
+#main .bg-img>img {
+    width: 600px;
+    height: 642px;
+    transform: rotate(90deg);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+/* aboutme*/
+#aboutme {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#aboutme .web-box {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 120px;
+}
+
+#aboutme h2 {
+    padding-top: 120px;
+    padding-left: 99px;
+    font-family: "hesomcha";
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--main-color);
+}
+
+#aboutme .left {
+    margin-left: 120px;
+}
+
+#aboutme .left .intro {
+    font-size: 24px;
+}
+
+#aboutme .left .intro span {
+    font-weight: 600;
+}
+
+#aboutme .left>img {
+    width: 346px;
+    height: 438px;
+}
+
+#aboutme .left>h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#aboutme .left .pro-box {
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#aboutme .left .pro-box .box {
+    font-size: 20px;
+    line-height: 2em;
+    color: #545454;
+    margin-right: 30px;
+}
+
+/* right */
+#aboutme .right {
+    margin-left: 200px;
+}
+
+#aboutme .right>h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#aboutme .right .pro-box {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+
+}
+
+#aboutme .right .pro-box .box {
+    font-size: 20px;
+    line-height: 2em;
+    color: #545454;
+    margin-right: 40px;
+}
+
+/* portpolio-1 */
+#portpolio-1 {
+    
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/portpoilo-bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-1 .flex {
+padding-top: 120px;
+margin-bottom: 120px;
+}
+
+#portpolio-1 .pc{
+    height: 400px;
+    background:#fff;
+    background-image: url(../images/더본코리아\ 홈페이지.jpg);
+    background-size: 670px;
+    background-position: center 30px;
+    transition-duration: 6s;
+    position: relative;
+    border-radius: 30px;
+    
+}
+#portpolio-1 .pc:hover{
+    background-position: center -1110px;
+}
+#portpolio-1 .mac {
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+
+
+#portpolio-1 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+    
+}
+
+#portpolio-1 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-1 .logo {
+    width: 260px;
+    height: 80px;
+    margin-bottom: 180px;
+}
+
+#portpolio-1 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-1 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-1 .portpolio-txt-box >.btn {
+    width: 170px;
+    border: 1px solid white; 
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-1 .portpolio-txt-box >.btn a{
+color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* portpolio-2 */
+#portpolio-2 {
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/portpoilo-bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-2 .flex {
+   padding-top: 120px;
+   margin-bottom: 120px;
+}
+#portpolio-2 .pc{
+    height: 400px;
+    background:#fff;
+    background-image: url(../images/시안_메인페이지\ –\ 1.jpg);
+    background-size: 670px;
+    background-position: center 30px;
+    transition-duration: 6s;
+    position: relative;
+    border-radius: 30px;
+    
+}
+#portpolio-2 .pc:hover{
+    background-position: center -1110px;
+}
+#portpolio-2 .mac {
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#portpolio-2 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+    
+}
+
+#portpolio-2 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-2 .logo {
+    width: 260px;
+    height: 42px;
+    margin-bottom: 180px;
+}
+
+#portpolio-2 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-2 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-2 .portpolio-txt-box >.btn {
+    width: 170px;
+    border: 1px solid white; 
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-2 .portpolio-txt-box >.btn a{
+color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* portpolio-3 */
+#portpolio-3 {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background-image: url(../images/portpoilo-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+#portpolio-3 .flex {
+    padding-top: 16vh;
+}
+#portpolio-3 .pc{
+    height: 400px;
+    background:#fff;
+    background-image: url(../images/아더에러.jpg);
+    background-size: 670px;
+    background-position: center 30px;
+    transition-duration: 10s;
+    position: relative;
+    border-radius: 30px;
+    
+}
+#portpolio-3 .pc:hover{
+    background-position: center -1310px;
+}
+#portpolio-3 .mac {
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#portpolio-3 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+    
+}
+
+#portpolio-3 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-3 .logo {
+    width: 260px;
+    height: 42px;
+    margin-bottom: 180px;
+}
+
+#portpolio-3 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-3 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-3 .portpolio-txt-box >.btn {
+    width: 170px;
+    border: 1px solid white; 
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-3 .portpolio-txt-box >.btn a{
+color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* portpolio-4 */
+#portpolio-4 {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: #2C7BCA;
+    color: #fff;
+
+}
+
+#portpolio-4 .flex {
+    padding-top: 16vh;
+}
+#portpolio-4 .pc{
+    height: 400px;
+    background:#fff;
+    background-image: url(../images/메인페이지.jpg);
+    background-size: 670px;
+    background-position: center 30px;
+    transition-duration: 10s;
+    position: relative;
+    border-radius: 30px;
+    
+}
+#portpolio-4 .pc:hover{
+    background-position: center -1310px;
+}
+#portpolio-4 .mac {
+    margin-top: 50px;
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#portpolio-4 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+    
+}
+
+#portpolio-4 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-4 .logo {
+    width: 260px;
+    /* height: 42px; */
+    margin-bottom: 180px;
+}
+
+#portpolio-4 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-4 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-4 .portpolio-txt-box >.btn {
+    width: 170px;
+    border: 1px solid white; 
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-4 .portpolio-txt-box >.btn a{
+color: black;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* portpolio-5 */
+#portpolio-5 {
+    width: 100%;
+    height: 100vh;
+    background: #BBCDDB;
+    color: #fff;
+
+}
+
+#portpolio-5 .flex {
+    padding-top: 16vh;
+    justify-content:flex-start;
+    
+}
+#portpolio-5 .mobile{
+    width: 200px;
+    height: 590px;
+    background:#fff;
+    background-image: url(../images/메인페이지.jpg);
+    background-size: 300px;
+    background-position: center;
+    transition-duration: 10s;
+    position: relative;
+    border-radius: 30px;
+    
+}
+#portpolio-5 .mobile:hover{
+    background-position: center ;
+}
+#portpolio-5 .iphone {
+    width: 320px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#portpolio-5 .title-box {
+    width: 140px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #fff;
+    border-radius: 17px;
+    margin-bottom: 24px;
+    
+}
+
+#portpolio-5 .title-box p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#portpolio-5 .logo {
+    width: 260px;
+    /* height: 42px; */
+    margin-bottom: 180px;
+}
+
+#portpolio-5 .portpolio-txt-box h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#portpolio-5 .portpolio-txt-box p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#portpolio-5 .portpolio-txt-box >.btn {
+    width: 170px;
+    border: 1px solid white; 
+    border-radius: 28px;
+    text-align: center;
+    background: #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#portpolio-5 .portpolio-txt-box >.btn a{
+color: black;
+font-size: 20px;
+font-weight: 400;
+}
